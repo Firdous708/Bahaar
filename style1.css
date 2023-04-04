@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat&display=swap');
+
+
+body {
+margin: 0;
+  background-color: #000000;
+  color: white;
+   font-family: 'DM Sans', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-div {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-div img {
+  object-fit: contain;
+}
+.text-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 40px;
+ 
+}
+#welcome-heading {
+  text-align: center;
+  max-width: 300px;
+  word-wrap: break-word;
+  
+  margin-bottom: 20px;
+}
+#welcome-paragraph {
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  max-width: 300px;
+  word-wrap: break-word;
+  
+}
+.start {
+  height: 60px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #62CDFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 16px;
+  cursor:pointer;
+  
+  
+}
+.start:hover {
+  background-color: #62CDFF;
+  box-shadow: 0 0 10px grey;
+  color: black;
+}

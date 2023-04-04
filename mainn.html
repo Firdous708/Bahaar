@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mausam</title>
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <div class = "topnav">
+     <form id="search-form">
+      <input type="text" id="search-input" name="search-input" placeholder = "Location">
+      <button type="submit" id = "submit">Search</button>
+    </form>
+</div>
+<div class = "main-body">
+  <div class = "main-body-heading">
+    <h2 id = "report-heading">Today's Report</h2>
+  </div>
+  <div class = "middle-body">
+      <div class = "body-image"><img src = "https://i.ibb.co/F3YK0j2/Untitled-design-removebg-preview.png" alt = "image">
+        
+      </div>
+    <div class = "report-text">
+      <h2 id = "city"></h2>
+      <h3 id = "feels-like"></h3>
+      <h1 id = "temp"></h1>
+    </div>
+  </div>
+
+</div>
+
+  <div id="additional-data-container">
+     <div class = "info1">
+       <div class = "img-container">
+       <img src = "https://i.ibb.co/9rzxbMs/Untitled-design-1-removebg-preview.png" alt = "wind" height = "90px" width = "90px">
+       </div>
+      <p>Wind Speed: <span id="wind-speed"></span> m/s</p>
+  </div>
+  <div class = "info2">
+      <div class = "img-container">
+       <img src = "https://i.ibb.co/x6K6Xn3/Untitled-design-2-removebg-preview.png" alt = "humidity" height = "90px" width = "90px">
+       </div>
+      <p>Humidity: <span id="humidity"></span>%</p>
+  </div>
+  <div class = "info3">
+     <div class = "img-container">
+       <img src = "https://i.ibb.co/wrnHRZg/Untitled-design-4-removebg-preview.png" alt = "wind" height = "90px" width = "90px">
+       </div>
+      <p>Chance of Rain: <span id="rain-chance"></span>%</p>
+  </div>
+    </div>
+
+
+
+
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>
